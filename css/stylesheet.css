@@ -32,7 +32,7 @@ h2 {
 
 .myDiv {
   background-color: #053B50;
-  outline: 7px #64CCC5;
+  border: 10px #64CCC5;
   margin: auto;
-  padding: 15px;
+  text-align: center;
 }
