@@ -26,15 +26,10 @@ h2 {
   padding: 10px;
   font-size: 20px
 }
-.nav a:hover {
-  background-color: #64CCC5;
-  color: #176B87;
-  text-decoration: none;
-}
+
 
 .myDiv {
-  background-color: #053B50;
   border: 10px #64CCC5;
-  margin: auto;
+  background-color: #053B50;
   text-align: center;
 }
