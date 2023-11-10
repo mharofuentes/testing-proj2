@@ -6,7 +6,7 @@ main {
   margin-top: 0;
 }
 h1 {
-  background-color: #EEEEEE
+  background-color: #EEEEEE;
   font-size: 45px;
   padding-top: 20px;
   padding-right: 80px;
@@ -14,7 +14,7 @@ h1 {
   padding-left: 80px;
 }
 .mydiv {
-  background-color: #176B87
+  background-color: #176B87;
   border: 5px #64CCC5;
   margin: auto;
   padding: 15px;
