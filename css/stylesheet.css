@@ -19,7 +19,7 @@ h2 {
 }
 .myDiv {
   background-color: #EEEEEE;
-  border: 5px #64CCC5;
+  outline: 7px #64CCC5;
   margin: auto;
   padding: 15px;
 }
