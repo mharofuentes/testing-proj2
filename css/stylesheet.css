@@ -18,6 +18,9 @@ h2 {
    background-color: #EEEEEE;
    font-size: 40px;
 }
+p {
+  font-size: 20px;
+}
 .nav {
   background-color: #176B87;
   overflow: hidden;
