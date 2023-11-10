@@ -7,6 +7,7 @@ body {
 }
 h1 {
   background-color: #EEEEEE;
+  border: 10px #64CCC5;
   font-size: 30px;
   padding-top: 20px;
   padding-right: 60px;
