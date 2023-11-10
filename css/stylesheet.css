@@ -18,13 +18,11 @@ h2 {
    font-size: 40px;
 }
 .nav {
-  float: none;
-  font-size: 27px;
+  background-color: #64CCC5;
+  overflow: hidden;
+  text-decoration: none; 
   text-align: center;
-  color: #176B87;
   padding: 10px;
-  text-decoration: none;
-  display: inline-block;
 }
 .nav a:hover {
   background-color: #64CCC5;
