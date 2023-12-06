@@ -79,6 +79,12 @@ nav ul li a {
    height: 25px;
 }
 
+@media (min-width: 601px) {
+   div {
+     display: flex;
+     flex-direction: column;
+  }
+}
 
 
 @media (max-width: 1000px) and (min-width: 601px) {
