@@ -82,6 +82,8 @@ nav ul li a {
 
 @media (min-width: 600px) {
   div.a {
+     line-height: 1.2;
+    font-size: 15px;
     display: flex;
     flex-direction: column;
     padding-top: 5px;
@@ -95,17 +97,19 @@ nav ul li a {
     }
   }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 800px) {
    .topnav a {
       width: 100%;
    }
-    div.a {
-      display: flex;
-      flex-direction: column;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-right: 60px;
-      padding-left: 60px;
+   div.a {
+     line-height: 1.8;
+     font-size: 18px;
+     display: flex;
+     flex-direction: column;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-right: 60px;
+     padding-left: 60px;
     }
 }
 
