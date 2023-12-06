@@ -86,7 +86,7 @@ nav ul li a {
      flex-direction: column;
   }
 }
-@media (max-width: 1000px) and (min-width: 601px) {
+@media (max-width: 1000px) {
   
   #content {
     width: 100%
