@@ -80,7 +80,13 @@ nav ul li a {
 }
 
 
-
+@media (min-width: 601px) {
+   div {
+		   font-size: 10px;
+     display: flex;
+     flex-direction: column;
+  }
+}
 @media (max-width: 1000px) and (min-width: 601px) {
   
   #content {
@@ -100,14 +106,7 @@ nav ul li a {
 
 
 
-@media (max-width: 600px){
-  
-  
-  #content {
-    width: 100%
-  }
 
-}
 @media all and (max-width: 320px) {
     li {
         display: block;
