@@ -79,13 +79,26 @@ nav ul li a {
    height: 25px;
 }
 
-@media (min-width: 601px) {
-   div {
+@media (min-width: 600px) {
+   .div {
      display: flex;
      flex-direction: column;
+   }
+   .topnav a {
+     float: none;
+     width: 100%;
   }
 }
-
+ @media screen and (min-width: 900px) {
+   .topnav a {
+      width: 100%;
+   }
+   .div {
+     display: flex;
+     vertical-align: text-top;
+     text-align: center;
+ }
+}
 
 @media (max-width: 1000px) and (min-width: 601px) {
   
