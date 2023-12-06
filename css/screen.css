@@ -1,21 +1,19 @@
+body {
+ font-family: "Poppins", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #eeeeee;
+  margin-top: 0;
+}
+
 header {
   background-color: #053b50;
   color: #eeeeee;
   text-align: center;
   padding: 20px;
 }
-body {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background-color: #053B50;
-  margin-top: 0;
-}
 
-
-p {
-  font-size: 20px;
-}
 nav ul {
   list-style: none;
   padding: 0px;
@@ -31,12 +29,88 @@ nav ul li a {
 }
 
 
-.Div {
-  border: 10px #64CCC5;
-  background-color: #EEEEEE;
-  font-size: 30px;
-  padding-top: 20px;
-  padding-right: 60px;
-  padding-bottom: 20px;
-  padding-left: 60px;
+.labels{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 300px;
+  text-align: center;
+  padding: 1em; 
+
+}
+
+.textAreas{
+  display: block;
+  width: 300px;
+  height: 25px;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+.radioName {
+  text-decoration: underline;
+  padding: 6px;
+  margin-bottom: 20px;
+}
+
+
+.radio-group1 input[type="radio"] {
+  margin-bottom: 20px;
+  margin-right: 5px;
+
+}
+
+.radio-group1 label{
+  margin-right: 15px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+ 
+}
+
+#submitButton{
+  margin: auto;
+  float: right;
+  padding: 10px;  
+}
+
+#submit{
+  background-color: #64ccc5;
+   width: 100px;
+   height: 25px;
+}
+
+
+
+@media (max-width: 1000px) and (min-width: 601px) {
+  
+  #content {
+    width: 100%
+  }
+  
+#content {
+  
+  width: 100%;
+  padding: 10px 0;
+  margin: 0 auto;
+  border-style: hidden;
+  vertical-align: middle;
+}
+
+}
+
+
+
+@media (max-width: 600px){
+  
+  
+  #content {
+    width: 100%
+  }
+
+}
+@media all and (max-width: 320px) {
+    li {
+        display: block;
+        margin: 5px 0px;
+    }
 }
