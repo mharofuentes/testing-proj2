@@ -88,6 +88,11 @@ nav ul li a {
      float: none;
      width: 100%;
   }
+   #one{
+     font-size:16px;
+     line-height: 1.8;
+
+}
 }
  @media screen and (min-width: 900px) {
    .topnav a {
@@ -100,30 +105,3 @@ nav ul li a {
  }
 }
 
-@media (max-width: 1000px) and (min-width: 601px) {
-  
-  #content {
-    width: 100%
-  }
-  
-#content {
-  
-  width: 100%;
-  padding: 10px 0;
-  margin: 0 auto;
-  border-style: hidden;
-  vertical-align: middle;
-}
-
-}
-
-
-
-@media (max-width: 600px){
-  
-  
-  #content {
-    width: 100%
-  }
-
-}
