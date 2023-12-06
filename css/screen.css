@@ -81,8 +81,7 @@ nav ul li a {
 
 
 
-}
-@media (max-width: 1000px) {
+@media (max-width: 1000px) and (min-width: 601px) {
   
   #content {
     width: 100%
@@ -101,10 +100,11 @@ nav ul li a {
 
 
 
+@media (max-width: 600px){
+  
+  
+  #content {
+    width: 100%
+  }
 
-@media all and (max-width: 320px) {
-    li {
-        display: block;
-        margin: 5px 0px;
-    }
 }
