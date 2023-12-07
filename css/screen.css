@@ -326,13 +326,6 @@ h1{
    }
   }
 
-@media screen and (min-width: 800px) {
-   div.a {
-     line-height: 1.5;
-     font-size: 19px;
-     display: flex;
-    
-    }
 }
   
   #form-content{
@@ -367,14 +360,6 @@ h1{
 }
 
 
-@media screen and (min-width: 800px) {
-  div.a {
-    line-height: 1.8;
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-  
-  }
 
 
 #indexP{
