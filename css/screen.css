@@ -55,6 +55,7 @@ nav h1 {
 
 h1 {
   text-align: center;
+  margin-top: 1em;
   background-color: #053b50;
   color: white;
 
@@ -170,7 +171,7 @@ header {
   background-color: #053b50;
   color: #eeeeee;
   text-align: center;
-
+  padding: 20px;
 }
 
 nav ul {
@@ -408,7 +409,3 @@ h1{
 
 .radioName {
   font-size: 30px;
-
-}
-}
-}
