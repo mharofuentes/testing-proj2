@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en" class="nojs">
+<head>
+  <meta charset="UTF-8">
+  <title>Apply</title>
+  <meta name="viewport" content="width=device-width-scale=1.0,shrink-to-fit=no">
+  <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css">
+  <link rel="stylesheet" media="screen" href="css/screen.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/screen.js"></script>
+</head>
+<body  id="indexBody">
+  <header>
+    <h1>Apply to Schools</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="page3.html">About the School</a></li>
+        <li><a href="index.html">Apply to Schools</a></li>
+      </ul>
+    </nav>
+  </header>
+  <p id="indexP">Ready to Apply? Fill out this quick form to tell us about yourself!</p>
+  <form method="get" action="#null" autocomplete="on">
+    <div id="form-content">
+      <div class="elementCss">
+        <label class="labels">Email <input class="textAreas" placeholder ="Email address" type="text" name="email_field" required></label>
+      </div>
+      <div class="elementCss">
+        <label class="labels">First Name <input class="textAreas" type="text" name="first_name_field" placeholder="First Name" required></label>
+      </div>
+      <div class="elementCss">
+        <label class="labels">Last Name <input class="textAreas" type="text" name="last_name_field" placeholder="Last Name" required></label>
+      </div>
+      <div class="elementCss">
+        <label class="labels">Birthdate <input class="textAreas" type="date" name="birthdate" placeholder="i.e 03-09-2023" required></label>
+      </div>
+      <div class="elementCss">
+        <label class="labels">Country <input class="textAreas" type="text" name="country" placeholder="Country Name"  required></label>
+      </div>
+      <div class="elementCss">
+        <label class="labels">City <input class="textAreas" type="text" name="city" placeholder="City Name"  required></label>
+      </div>
+      <div class="elementCss">
+        <label class="labels">State <input  class="textAreas" type="text" name="state" placeholder="i.e Chapel"  required></label>
+      </div>
+      <div class="elementCss">
+        <label class="labels">Postal Code<input class="textAreas" type="text" name="postal_code" placeholder="i.e 49008" required></label>
+      </div>
+      <div class="radioName"> Program of Interest </div>
+      <div class="radio-group1">
+        <label>Graphic Design Preliminary M.F.A <input type="radio" name="POI_field" value="Graphic Design Preliminary M.F.A"></label>
+        <label>Graphic Design<input type="radio" name="POI_field" value="Graphic Design"></label>
+        <label>Painting/Pringmaking <input type="radio" name="POI_field" value="Painting/Printmaking"></label>
+        <label>Photography <input type="radio" name="POI_field" value="photography"></label>
+        <label>Sculpture<input type="radio" name="POI_field" value="Sculpture"></label>
+      </div>
+      <div class="radioName">Entry term of interest</div>
+      <div class="radio-group2">
+        <label>Fall 2024<input type="radio" name="term" value="Fall2024"></label>
+        <label>Fall 2025<input type="radio" name="term" value="Fall2025"></label>
+        <label>Fall 2026<input type="radio" name="term" value="Fall2026"></label>
+        <label>Not Sure Yet<input type="radio" name="term" value="NotSureYet"></label>
+      </div>
+      <div>
+        <label class="labels">Undergraduate Institution <input class="textAreas" type="text" name="undergrad" required></label>
+      </div>
+      <div>
+        <label class="labels">Graduation Year <input class="textAreas" type="text" name="gradyear" required></label>
+      </div>
+      <div id="submitButton">
+        <input onclick="showAlert()" type="submit" name="submit" id="submit" value="Register">
+      </div>
+      <div>
+        <!--button onclick="toTop()">Back to Top</button>-->
+        <button><a href ="#Top">Go up</a></button>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
+      
+      
+      
