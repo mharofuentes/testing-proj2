@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
 
 }
 
@@ -53,6 +53,13 @@ nav h1 {
   margin: 0.7em;
 }
 
+h1 {
+  text-align: center;
+  margin-top: 1em;
+  background-color: #053b50;
+  color: white;
+
+}
 
 .p1 {
 
@@ -69,13 +76,18 @@ h2 {
 
 }
 
+
+
+
 p {
   max-width: 90%;
   margin-left: 1em;
   display: flex;
   justify-content: center;
   padding: 0.8em;
+  font-size: 20px;
 }
+
 
 #indexP{
   font-size: 25px;
@@ -119,18 +131,6 @@ h5 {
 
 
 
-
-/* CONTACT US  */
-h1 {
-  text-align: center;
-  margin: 1em;
-}
-
-
-
-
-
-
 /* Merged CSS */
 
 
@@ -171,6 +171,7 @@ header {
   background-color: #053b50;
   color: #eeeeee;
   text-align: center;
+  padding: 20px;
 }
 
 nav ul {
@@ -298,17 +299,19 @@ button:hover {
   .topnav a {
     float: none;
     width: 100%;
+  }
 
-P{
-  padding: 10px;
-  font-size: 20px;
-  font-weight: bold;
-}
+  p {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
 
 h1{
   padding: 10px;
   font-size: 20px;
   font-weight: bold;
+}
 }
   
 
@@ -325,6 +328,17 @@ h1{
    }
   }
 
+@media screen and (min-width: 800px) {
+   div.a {
+     line-height: 1.5;
+     font-size: 19px;
+     display: flex;
+     flex-direction: column;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-right: 100px;
+     padding-left: 100px;
+    }
 }
   
   #form-content{
@@ -359,6 +373,21 @@ h1{
 }
 
 
+@media screen and (min-width: 800px) {
+  .topnav a {
+    width: 100%;
+  }
+
+  div.a {
+    line-height: 1.8;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
 
 
 #indexP{
