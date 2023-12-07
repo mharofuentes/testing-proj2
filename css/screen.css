@@ -331,11 +331,7 @@ h1{
      line-height: 1.5;
      font-size: 19px;
      display: flex;
-     flex-direction: column;
-     padding-top: 15px;
-     padding-bottom: 15px;
-     padding-right: 100px;
-     padding-left: 100px;
+    
     }
 }
   
